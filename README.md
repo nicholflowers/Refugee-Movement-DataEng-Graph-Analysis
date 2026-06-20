@@ -73,9 +73,6 @@ project's accompanying slide deck.
 Neo4j (Cypher, Graph Data Science library), MongoDB, Redis, and Python for data
 preparation and visualization.
 
-## 👥 Team
-
-A team project by Ishani Cheshire, Sarah Farooq, Nichol Flowers, and Alex Lewis.
 
 ## 📝 Notes
 
