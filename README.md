@@ -5,10 +5,9 @@
 When millions of people are forced from their homes, aid organizations and
 policymakers need to know where to focus their support. That starts with knowing
 where refugees go and which countries send and absorb the largest flows. This
-project explores both by modeling refugee flows as graphs in Neo4j. Since
-people flow out of some countries and into others, this approach goes beyond
-simple counts to measure each country's structural importance and trace the
-routes that connect them.
+project explores both by modeling refugee flows as graphs in Neo4j. Since people 
+flow out of some countries and into others, this approach goes beyond simple 
+counts to reveal how countries are connected and trace the routes between them.
 
 ## 🗂️ Dataset
 
@@ -30,12 +29,12 @@ other displaced people, covering 2010–2022.
 4. **Analysis.** Neo4j Graph Data Science (GDS) algorithms run over the graphs,
    moving from which countries matter, to how they're connected, to the routes
    between them:
-   - **PageRank**: each country's structural importance in the overall flow network
+   - **PageRank**: each country’s standing in the network, based on how many countries it connects to and how prominent those countries are
    - **Degree centrality**: out-degree counts how many countries each country sends refugees to; in-degree counts how many countries it receives refugees from
    - **Minimum spanning tree (MST)**: the strongest connections from each top origin country to asylum countries 
    - **Dijkstra shortest path**: least-cost displacement routes from the top origin countries to the United States
-5. **Visualization.** Results are charted and mapped for 2010, 2015 and 2020 so
-   the leading countries and routes read at a glance.
+5. **Visualization.** Results are communicated through temporal and geospatial visualizations.
+
 
 ## 🏆 Results
 
@@ -76,7 +75,7 @@ See the slide deck for charts and maps from each analysis. The year-by-year anim
 ## 🧠 Skills Demonstrated
 
 - **Graph data modeling**: representing a real-world domain as nodes and weighted, directed relationships
-- **Network analysis**: applying centrality and path algorithms to rank entities by structural importance rather than raw counts
+- **Network analysis**: applying centrality and path algorithms to rank countries by their connections rather than raw counts
 - **Neo4j & Cypher**: building and querying a graph database and running GDS algorithms
 - **Interpretation & visualization**: turning graph metrics into clear charts of where refugee movement concentrates
 
