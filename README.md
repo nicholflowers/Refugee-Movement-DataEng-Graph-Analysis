@@ -31,7 +31,7 @@ other displaced people, covering 2010–2022.
    between them:
    - **PageRank**: each country's structural importance in the overall flow network
    - **Degree centrality**: out-degree counts how many countries each country sends refugees to; in-degree counts how many countries it receives refugees from
-   - **Minimum spanning tree (MST)**: the primary refugee flow from each top origin country
+   - **Minimum spanning tree (MST): the strongest connections from each top origin country to asylum countries 
    - **Dijkstra shortest path**: least-cost displacement routes from the top origin countries to the United States
 4. **Visualization.** Results are charted and mapped for 2010, 2015 and 2020 so
    the leading countries and routes read at a glance.
@@ -70,7 +70,7 @@ passed through other countries first, pointing to longer and riskier journeys.
 Stateless populations had no path to the U.S. at all, highlighting how
 vulnerable they remain.
 
-Full charts and maps are in the slide deck.
+See the slide deck for charts and maps from each analysis. The year-by-year animations play only in the PowerPoint version.
 
 ## 🧠 Skills Demonstrated
 
