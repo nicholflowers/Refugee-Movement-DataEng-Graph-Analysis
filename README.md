@@ -76,7 +76,7 @@ See the slide deck for charts and maps from each analysis. The year-by-year anim
 
 - **Graph data modeling**: representing a real-world domain as nodes and weighted, directed relationships
 - **Network analysis**: applying centrality and path algorithms to rank countries by their connections rather than raw counts
-- **Neo4j & Cypher**: building and querying a graph database and running GDS algorithms
+- **Neo4j**: building and querying a graph database and running GDS algorithms
 - **Interpretation & visualization**: turning graph metrics into clear charts of where refugee movement concentrates
 
 ## 🧰 Tools
