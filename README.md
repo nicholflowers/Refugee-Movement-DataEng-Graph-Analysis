@@ -39,6 +39,7 @@ other displaced people, covering 2010–2022.
 ## 🏆 Results
 
 **PageRank (2010–2022)**
+
 The United States ranked as the top destination every year from 2013 to 2022,
 drawing refugees from many of the countries producing the most refugees. Canada
 led from 2010 to 2012. On the origin side, stateless populations ranked at or
@@ -47,6 +48,7 @@ Syrian refugee crisis. The strength of the U.S. ranking shaped the rest of the
 analysis, which follows routes to the United States.
 
 **Degree Centrality (2010, 2015, 2020)**
+
 Germany, the United States and the United Kingdom received large flows from the
 widest range of countries in all three years, making them global hubs. Uganda
 and South Africa stood out as major regional hosts. Somalia, Iraq, Afghanistan
@@ -55,6 +57,7 @@ countries, while Syria and Venezuela rose in later years as new or intensifying
 conflicts drove displacement in many directions.
 
 Minimum Spanning Tree (2010, 2015, 2020)
+
 The analysis examined connections between refugee-origin and asylum countries 
 across three years. Due to an oversight, the edge weights were set to refugee 
 counts instead of their inverse, which led the algorithm to select the network 
@@ -64,6 +67,7 @@ to connections carrying more refugees, allowing the algorithm to prioritize larg
 flows.
 
 **Shortest Path (2010, 2015, 2020)**
+
 Syria, Iraq and Venezuela had direct paths to the United States, suggesting
 strong resettlement ties. Refugees from Somalia, Afghanistan and Pakistan often
 passed through other countries first, pointing to longer and riskier journeys.
