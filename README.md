@@ -46,7 +46,7 @@ near the top every year and Syria rose sharply by 2015 at the height of the
 Syrian refugee crisis. The strength of the U.S. ranking shaped the rest of the
 analysis, which follows routes to the United States.
 
-**Degree centrality (2010, 2015, 2020)**
+**Degree Centrality (2010, 2015, 2020)**
 Germany, the United States and the United Kingdom received large flows from the
 widest range of countries in all three years, making them global hubs. Uganda
 and South Africa stood out as major regional hosts. Somalia, Iraq, Afghanistan
@@ -54,7 +54,7 @@ and the Democratic Republic of the Congo consistently sent refugees to the most
 countries, while Syria and Venezuela rose in later years as new or intensifying
 conflicts drove displacement in many directions.
 
-Minimum spanning tree (2010, 2015, 2020)
+Minimum Spanning Tree (2010, 2015, 2020)
 The analysis examined connections between refugee-origin and asylum countries 
 across three years. Due to an oversight, the edge weights were set to refugee 
 counts instead of their inverse, which led the algorithm to select the network 
@@ -63,7 +63,7 @@ strongest migration connections. Inverse counts would have assigned lower weight
 to connections carrying more refugees, allowing the algorithm to prioritize larger 
 flows.
 
-**Shortest path (2010, 2015, 2020)**
+**Shortest Path (2010, 2015, 2020)**
 Syria, Iraq and Venezuela had direct paths to the United States, suggesting
 strong resettlement ties. Refugees from Somalia, Afghanistan and Pakistan often
 passed through other countries first, pointing to longer and riskier journeys.
