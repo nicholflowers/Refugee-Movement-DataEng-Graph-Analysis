@@ -21,19 +21,20 @@ other displaced people, covering 2010–2022.
 
 1. **Graph model.** Countries are nodes. A directed, weighted relationship
    connects an origin country to an asylum country, weighted by the number of
-   refugees moving along that path. A second graph reverses the direction to
-   rank countries as both refugee producers and recipients.
-2. **Loading.** Only flows of more than 5,000 refugees are kept, to focus the
+   refugees moving along that path. The analysis covers countries of origin and
+   countries of asylum.
+
+3. **Loading.** Only flows of more than 5,000 refugees are kept, to focus the
    analysis on the largest movements. A separate graph is built with Cypher for
    each year.
-3. **Analysis.** Neo4j Graph Data Science (GDS) algorithms run over the graphs,
+4. **Analysis.** Neo4j Graph Data Science (GDS) algorithms run over the graphs,
    moving from which countries matter, to how they're connected, to the routes
    between them:
    - **PageRank**: each country's structural importance in the overall flow network
    - **Degree centrality**: out-degree counts how many countries each country sends refugees to; in-degree counts how many countries it receives refugees from
    - **Minimum spanning tree (MST)**: the strongest connections from each top origin country to asylum countries 
    - **Dijkstra shortest path**: least-cost displacement routes from the top origin countries to the United States
-4. **Visualization.** Results are charted and mapped for 2010, 2015 and 2020 so
+5. **Visualization.** Results are charted and mapped for 2010, 2015 and 2020 so
    the leading countries and routes read at a glance.
 
 ## 🏆 Results
