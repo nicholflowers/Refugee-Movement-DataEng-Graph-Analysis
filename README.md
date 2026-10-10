@@ -54,12 +54,14 @@ and the Democratic Republic of the Congo consistently sent refugees to the most
 countries, while Syria and Venezuela rose in later years as new or intensifying
 conflicts drove displacement in many directions.
 
-**Minimum spanning tree (2010, 2015, 2020)**
-The main route out of each top origin country was mostly regional in 2010, such
-as Somalia → Yemen and Myanmar → Bangladesh. In 2015, routes reached Europe, such
-as Afghanistan → Sweden and Somalia → United Kingdom. By 2020, they returned to
-neighboring countries, such as DRC → Tanzania and South Sudan → Egypt. Across all
-three years, neighboring countries carried most of the burden of displacement.
+Minimum spanning tree (2010, 2015, 2020)
+The analysis examined connections between refugee-origin and asylum countries 
+across three years. Due to an oversight, the edge weights were set to refugee 
+counts instead of their inverse, which led the algorithm to select the network 
+with the smallest combined refugee counts and favor smaller flows over the 
+strongest migration connections. Inverse counts would have assigned lower weights 
+to connections carrying more refugees, allowing the algorithm to prioritize larger 
+flows.
 
 **Shortest path (2010, 2015, 2020)**
 Syria, Iraq and Venezuela had direct paths to the United States, suggesting
